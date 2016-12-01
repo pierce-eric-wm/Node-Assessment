@@ -1,10 +1,3 @@
-/**
- * UserController
- *
- * @description :: Server-side logic for managing Users
- * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
- */
-
 module.exports = {
     destroy: function (req, res) { var id = req.param('id');
         if (!id) {

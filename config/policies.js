@@ -49,5 +49,8 @@ module.exports.policies = {
 		// feed : ['isNiceToAnimals', 'hasRabbitFood']
 	// }
   UserController: {
-      '*': ['isAdmin'] }
+      '*':['isUser||isAdmin']
+  },
+    AlbumController: {
+        '*': ['isAdmin'] }
 };

@@ -1,10 +1,3 @@
-/**
- * AlbumController
- *
- * @description :: Server-side logic for managing Albums
- * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
- */
-
 module.exports = {
     destroy: function (req, res) { var id = req.param('id');
         if (!id) {

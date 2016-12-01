@@ -46,5 +46,5 @@ module.exports.routes = {
   * for configuration options and examples.                                  *
   *                                                                          *
   ***************************************************************************/
-  'get /user/vipOnly': 'UserController.vipOnly'
+  'get /user/vipOnly': 'UserController.vipOnly',
 };
